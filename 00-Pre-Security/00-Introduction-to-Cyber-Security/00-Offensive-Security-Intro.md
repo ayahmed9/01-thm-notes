@@ -1,4 +1,4 @@
-# Offensive Security Intro
+# ⚔️ Offensive Security Intro
 
 ## ❔ What is Offensive Security❓
 - The process where you simulate a hacker's actions to find vulnerabilities in a system
