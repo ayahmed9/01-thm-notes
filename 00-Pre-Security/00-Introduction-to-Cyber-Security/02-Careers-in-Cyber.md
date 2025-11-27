@@ -98,3 +98,75 @@ Jobs in cybersecurity range from
 - Document your findings and report on the case
 
 ## Malware Analyst
+- Analyze all types of malware
+  - Learn more about how they work and what they do
+- Analyze suspicious programs
+  - Discover what they do
+    - Write reports about findings
+- "Reverse-Engineer"
+  - Convert compiled programs from machine language to readable code
+    - Requires strong background in low-level languages
+      - Assembly language
+      - C language
+
+### 🎯 Goal
+- Learn about all activities carried out by malicious programs
+  - Find out how to
+    - Detect
+    - Report
+
+### Responsibilities
+- Static analysis
+  - The process of analyzing malware &mdash; in a controlled envirnnoment &mdash; without executing it
+  - Reverse-engineering
+- Dynamic analysis
+  - The process of analyzing malware by running it in a controlled environment like a sandbox
+  - Observe malware sample activities in controlled environment
+- Document and report all findings
+
+## Penetration Tester
+- Responsible for testing technology products for security loopholes
+- "Pentester" or Ethical Hacker
+- Test security of systems and software
+  - Uncover flaws and vulnerabilities through systemized hacking
+    - Exploit vulnerabilities to evaluate risk
+      - Helps rectify issues to prevent cyberattacks
+- Uncover vulnerabilities across systems to keep cyber-defence in good standing
+
+### Responsibilities
+- Conduct tests on
+  - Computer systems
+  - Networks
+  - Web-based applications
+- Perform
+  - Security assessments
+  - Audits
+- Analyze policies
+- Evaluate and report on insights
+  - Recommend actions for attack prevention
+
+## Red Teamer
+- Play the role of adversary
+  - Attack and provide feedback from enemies perspective
+- Similar to penetration testers but with more targeted role
+- Test detection and response capabilities
+- Requires
+  - Imitating cyber criminals' actions
+    - Emulating malicious attacks
+    - Retaining access
+    - Avoiding detection
+- Assessments can run for up to a month
+  - Typically by external team
+- Best suited for mature security programs
+
+### Responsibilities
+- Emulate role of threat actor
+  - Uncover exploitable vulnerabilites
+  - Maintain access
+  - Avoid detection
+- Assess
+  - Security controls
+  - Threat intelligence
+  - Incident response procedures
+- Evaluate and report on insights
+  - Actionable data to avoid real-world incidents
