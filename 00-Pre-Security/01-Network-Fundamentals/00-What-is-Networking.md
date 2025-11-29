@@ -43,7 +43,7 @@ To communicate and maintain order, devices must be both indentifying and identif
 - Divided into 4 octets
   - Octet &ndash; a group of 8 bits
     - Bit &ndash; binary digits
-  - 192.168.1.1
+  - Ex: 192.168.1.1
     - Octet #1 = 192
     - Octet #2 = 168
     - Octet #3 = 1
@@ -79,9 +79,37 @@ To communicate and maintain order, devices must be both indentifying and identif
 - As more devices become connected it becomes harder to get public IP addresses that are not already in use
   - IP address versions
     - IPv4 = ^
+      - Ex: 86.157.52.21
+        - Converted from binary to dotted decimal notation for readability
       - 2<sup>32</sup> (4.29 billion) IP addresses
+        - 32 🟰 8 bits ✖️ 4 octets
     - IPv6
+      - Ex: 2a00:22c4:a531:c500:425f:cce6b:c36b:f64d
+        - Converted from binary to hexadecimal for readability
       - 2<sup>128</sup> (340 trillion+)
+        - 128 🟰 16 bits  ✖️ 8 hextets
+          - Hextet = hex block (hexadecimal + "octet")
+            - 4 hex digits
+              - 2 bytes
       - More efficient due to new methodologies
 
 ### Media Access Control (MAC) Address
+- [Theoretically] globally unique address assigned to the physical network interface of all devices [on a network]
+  - Physical network interface = microchip board found on device's motherboared
+    - Ethernet network interface card (NIC)
+      - Chip/circuitry behind ethernet port
+    - Wi-Fi adapter/card
+      - Chip/antenna that handles wireless signals
+    - Cellular modem
+      - Phones/hotspots
+        - Chip that connects to mobile networks
+  - Assigned at factory where device was built
+- 12-character hexadecimal/48-bit number
+  - Hexadecimal &ndash; base 16 numbering system used in computing to represent numbers
+  - Split into two halves
+    - First half (6 characters) represent parent company (creator/vendor of network interface)
+    - Second half (6 characters) is a unique number
+  - Separated by colons
+  - Ex: a4:c3:f0:85:ac:2d
+    - 12 hex digits ✖️ 4 bits/hex digit 🟰 48 bits
+      - 6 bytes translated from binary into hexadecimal for readabliity
